@@ -1,5 +1,11 @@
 const navLinks = document.querySelectorAll("header nav a");
 
+const activePage = () => {
+  navLinks.forEach((link) => {
+    link.classList.remove("active");
+  });
+};
+
 const resumeBtns = document.querySelectorAll(".resume-button");
 
 resumeBtns.forEach((btn, idx) => {
