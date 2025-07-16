@@ -690,6 +690,10 @@ section.active {
 .contact-box .field-box input {
     padding: 1.5rem;
     background: var(--bg-color);
+    border: .15rem solid var(--bg-color);
+    border-radius: .6rem;
+    font-size: 1.6rem;
+    color: var(--white-color);
 }
 
 .contact-box .field-box textarea {
