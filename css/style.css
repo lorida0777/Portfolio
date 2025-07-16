@@ -826,4 +826,9 @@ section.active {
         justify-content: center;
         gap: 2rem;
     }
+
+    .home-img .img-box {
+        width: 35rem;
+        height: 35rem;
+    }
 }
