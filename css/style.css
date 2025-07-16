@@ -115,11 +115,16 @@ section {
 }
 
 section.active {
-    visibility: visible;
-    opacity: 1;
-    overflow: auto;
+    animation: show-content;
 }
 
+@keyframes show-content {
+    100% {
+        visibility: visible;
+        opacity: 1;
+        overflow: auto;
+    }
+}
 
 .home {
     display: flex;
