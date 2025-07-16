@@ -29,6 +29,9 @@ const activePage = () => {
   sections.forEach((section) => {
     section.classList.remove("active");
   });
+
+  menuIcon.classList.remove("bx-x");
+  navbar.classList.remove("active");
 };
 
 navLinks.forEach((link, idx) => {
