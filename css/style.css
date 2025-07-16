@@ -809,6 +809,11 @@ section.active {
         display: none;
     }
 
+    nav.active {
+        display: block;
+        
+    }
+
     nav a {
         display: block;
         margin: 4rem 0;
