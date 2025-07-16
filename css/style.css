@@ -806,12 +806,13 @@ section.active {
         background: var(--bg-color);
         border-top: .1rem solid rgba(0,0,0,.2);
         text-align: center;
+        display: none;
     }
 
     nav a {
         display: block;
         margin: 4rem 0;
-        
+
 
     }
 }
