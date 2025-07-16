@@ -664,3 +664,7 @@ section.active {
     border-radius: .6rem;
     margin-right: 1.5rem;
 }
+
+.contact-detail .detail p:first-child {
+    color: var(--main-color);
+}
