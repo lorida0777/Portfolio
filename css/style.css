@@ -831,4 +831,14 @@ section.active {
         width: 35rem;
         height: 35rem;
     }
+
+    .resume-container, 
+    .portfolio-container, 
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .resume-container {
+        gap: 3rem;
+    }
 }
