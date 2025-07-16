@@ -19,6 +19,8 @@ navLinks.forEach((link, idx) => {
 logoLink.addEventListener("click", () => {
   if (!navLinks[0].classList.contains("active")) {
     activePage();
+
+    navLinks[0].classList.add("active");
   }
 });
 
