@@ -635,3 +635,15 @@ section.active {
 .contact-container .contact-box:first-child {
     align-self: center;
 }
+
+.contact-box h2 {
+    font-size: 4.5rem;
+}
+
+.contact-box p {
+    font-size: 1.6rem;
+}
+
+.contact-box .desc {
+    margin: 1.5rem 0 2.5rem;
+}
