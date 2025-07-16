@@ -861,3 +861,9 @@ section.active {
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}
