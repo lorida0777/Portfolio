@@ -31,7 +31,9 @@ navLinks.forEach((link, idx) => {
       activePage();
       link.classList.add("active");
 
-      setTimeout(() => {}, 1100);
+      setTimeout(() => {
+        sections[idx].classList.add("active");
+      }, 1100);
     }
   });
 });
@@ -41,6 +43,9 @@ logoLink.addEventListener("click", () => {
     activePage();
 
     navLinks[0].classList.add("active");
+    setTimeout(() => {
+      sections[0].classList.add("active");
+    }, 1100);
   }
 });
 
