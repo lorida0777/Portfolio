@@ -2,6 +2,7 @@ const navLinks = document.querySelectorAll("header nav a");
 const logoLink = document.querySelector(".logo");
 
 const activePage = () => {
+  const header = document.querySelector("header");
   const barsBox = document.querySelector(".bars-box");
 
   navLinks.forEach((link) => {
