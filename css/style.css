@@ -647,3 +647,10 @@ section.active {
 .contact-box .desc {
     margin: 1.5rem 0 2.5rem;
 }
+
+
+.contact-box .contact-detail{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+} 
