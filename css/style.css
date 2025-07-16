@@ -629,5 +629,9 @@ section.active {
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1.3fr;
-    gap: 3rem
+    gap: 3rem; 
+}
+
+.contact-container .contact-box:first-child {
+    align-self: center;
 }
