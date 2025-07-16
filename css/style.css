@@ -845,4 +845,8 @@ section.active {
     .portfolio-container .portfolio-box:first-child {
         order: 1;
     }
+
+    .contact-box .field-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
