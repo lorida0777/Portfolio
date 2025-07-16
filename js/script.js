@@ -1,3 +1,5 @@
+const navLinks = document.querySelectorAll("header nav a");
+
 const resumeBtns = document.querySelectorAll(".resume-button");
 
 resumeBtns.forEach((btn, idx) => {
