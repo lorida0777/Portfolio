@@ -30,6 +30,8 @@ navLinks.forEach((link, idx) => {
     if (!link.classList.contains("active")) {
       activePage();
       link.classList.add("active");
+
+      setTimeout(() => {}, 1100);
     }
   });
 });
