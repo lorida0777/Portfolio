@@ -786,3 +786,9 @@ section.active {
         padding: 10rem 4% 2rem;
     }
 }
+
+@media screen and (max-width: 810px) {
+    .contact-box .field-box {
+        grid-template-columns: 1fr;
+    }
+}
