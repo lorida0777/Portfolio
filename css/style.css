@@ -686,8 +686,9 @@ section.active {
     gap: 2rem;
 }
 
-.contact-box .field-box textarea, 
-.contact-box .field-box input {
+
+.contact-box .field-box input,
+.contact-box .field-box textarea {
     padding: 1.5rem;
     background: var(--bg-color);
     border: .15rem solid var(--bg-color);
@@ -698,4 +699,6 @@ section.active {
 
 .contact-box .field-box textarea {
     grid-column: 1 / -1;
+    height: 26rem;
+    resize: none;
 }
