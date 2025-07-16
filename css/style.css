@@ -804,5 +804,6 @@ section.active {
         width: 100%;
         padding: 1rem 0;
         background: var(--bg-color);
+        border-top: .1rem solid rgba(0,0,0,.2);
     }
 }
