@@ -686,6 +686,12 @@ section.active {
     gap: 2rem;
 }
 
+.contact-box .field-box textarea, 
+.contact-box .field-box input {
+    padding: 1.5rem;
+    background: var(--bg-color);
+}
+
 .contact-box .field-box textarea {
     grid-column: 1 / -1;
 }
