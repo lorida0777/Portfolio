@@ -792,3 +792,14 @@ section.active {
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+    nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
