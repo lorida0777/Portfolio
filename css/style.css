@@ -776,3 +776,13 @@ section.active {
         font-size: 55%;
     }
 }
+
+@media screen and (max-width: 992px){
+    header {
+        padding: 2rem 4%; 
+    }
+
+    section {
+        padding: 10rem 4% 2rem;
+    }
+}
