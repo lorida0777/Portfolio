@@ -9,6 +9,9 @@ const activePage = () => {
   });
 
   barsBox.classList.remove("active");
+  setTimeout(() => {
+    barsBox.classList.add("active");
+  }, 1100);
 };
 
 navLinks.forEach((link, idx) => {
