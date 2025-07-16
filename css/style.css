@@ -769,3 +769,10 @@ section.active {
     margin-bottom: 2rem;
     cursor: pointer;
 }
+
+/* breakpoints */
+@media screen and (max-width: 1200px){
+    html {
+        font-size: 55%;
+    }
+}
