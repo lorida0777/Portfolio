@@ -811,7 +811,7 @@ section.active {
 
     nav.active {
         display: block;
-        
+
     }
 
     nav a {
@@ -819,5 +819,11 @@ section.active {
         margin: 4rem 0;
 
 
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 2rem;
     }
 }
