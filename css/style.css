@@ -41,6 +41,17 @@ header {
     opacity: 0;
 }
 
+header.active {
+    animation: show-header 1.5s linear forwards;
+}
+
+@keyframes show-header {
+    100% {
+        visibility: visible;
+        opacity: 0;
+    }
+}
+
 .logo {
     font-size: 3rem;
     color: var(--white-color);
