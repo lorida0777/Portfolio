@@ -2,9 +2,13 @@ const navLinks = document.querySelectorAll("header nav a");
 const logoLink = document.querySelector(".logo");
 
 const activePage = () => {
+  const barsBox = document.querySelector(".bars-box");
+
   navLinks.forEach((link) => {
     link.classList.remove("active");
   });
+
+  barsBox.classList.remove("active");
 };
 
 navLinks.forEach((link, idx) => {
