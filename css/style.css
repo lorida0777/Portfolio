@@ -24,6 +24,8 @@ html {
 
 body {
     color: var(--white-color);
+    background-color: var(--bg-color);
+    min-height: 100vh;
 }
 
 header {
