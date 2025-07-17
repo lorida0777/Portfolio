@@ -490,8 +490,10 @@ section.active {
 }
 
 .resume-detail.skills .resume-list {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     height: auto;
+    gap: 2rem;
     overflow: visible;
 }
 
@@ -499,6 +501,7 @@ section.active {
     position: relative;
     align-items: center;
     height: auto;
+    cursor: default;
 }
 
 .resume-detail.skills .resume-list .resume-item i {
@@ -508,6 +511,7 @@ section.active {
 
 .resume-detail.skills .resume-list .resume-item:hover {
     color: var(--main-color);
+    transform: scale(1.05);
 }
 
 .resume-detail.skills .resume-list .resume-item span {
