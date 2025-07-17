@@ -97,9 +97,11 @@ nav a.active {
 @keyframes hide-bars {
     0% {
         transform: translateY(0);
+        background-color: var(--bg-color)
     }
     100% {
         transform: translateY(-100%);
+         background-color:var(--main-color);
     }
 }
 
@@ -111,9 +113,11 @@ nav a.active {
 @keyframes show-bars {
     0% {
         transform: translateY(-100%);
+        background-color: var(--main-color); 
     }
     100% {
         transform: translateY(0);
+        background-color: var(--bg-color);
     }
 }
 
