@@ -584,6 +584,7 @@ section.active {
 
 .portfolio-box p {
     font-size: 1.6rem;
+    text-align: justify;
 }
 
 .portfolio-box .tech {
