@@ -550,6 +550,10 @@ section.active {
     color: var(--main-color);
 }
 
+.resume-detail.about .desc {
+    text-align: justify;
+}
+
 .resume-detail.about .resume-item p span {
     color: var(--white-color);
     margin-left: 1rem;
