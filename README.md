@@ -32,9 +32,4 @@
 ---
 
 ## 📸 Aperçu du site
-
-> *(Insère ici un aperçu visuel de ton portfolio)*  
-Ajoute une image `screenshot.png` dans ton dépôt et elle s'affichera ici automatiquement :
-
-```markdown
 ![Aperçu du Portfolio](./screenshot.png)
