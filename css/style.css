@@ -436,8 +436,6 @@ section.active {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
-    height: 45rem;
-    overflow: auto;
 }
 
 .resume-list::-webkit-scrollbar {
@@ -457,10 +455,11 @@ section.active {
     background: var(--second-bg-color);
     border-radius: .8rem;
     padding: 3rem 2.5rem;
-    height: calc((45rem - 2rem) / 2);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .resume-item .year {
