@@ -461,7 +461,29 @@
                     <div class="portfolio-detail">
                         <p class="numb">05</p>
                         <h3>Vary-IA — Système Hybride de Diagnostic des Maladies du Riz</h3>
-                        <p></p>
+                        <p>
+                            Vary-IA est un système d'intelligence artificielle hybride conçu pour diagnostiquer 
+                            les maladies des feuilles de riz à Madagascar, depuis un simple smartphone Android. 
+                            Il combine deux sources d'information : la photo d'une feuille de riz et les données 
+                            climatiques des 7 derniers jours, afin d'identifier 4 maladies critiques — 
+                            Bacterialblight, Blast, Brownspot et Tungro — qui ravagent jusqu'à 40% des rendements 
+                            chaque année.
+                            <br><br>
+                            L'architecture hybride repose sur deux branches complémentaires : un CNN MobileNetV2 
+                            (Transfer Learning + Fine-Tuning) pour l'analyse visuelle des feuilles, et un 
+                            BiGRU bidirectionnel pour l'analyse des séquences climatiques (température et humidité). 
+                            Les deux branches fusionnent leurs vecteurs de features pour produire un diagnostic 
+                            final avec un niveau de confiance. Le modèle atteint 99.55% d'accuracy pour le CNN 
+                            seul et 99.04% pour le modèle hybride, entraînés sur 26 682 images (augmentation ×5) 
+                            et 2 000 entrées météo réelles.
+                            <br><br>
+                            Un Denoising Autoencoder (DAE) est intégré en bonus pour améliorer la qualité des 
+                            images dégradées sur le terrain (flou, bruit, contre-jour). Les modèles sont convertis 
+                            en TFLite (~12 MB après quantization INT8) pour un déploiement offline sur Android, 
+                            avec une inférence inférieure à 300ms. Ce projet illustre mes compétences en Deep 
+                            Learning multimodal, Transfer Learning, traitement de séries temporelles et 
+                            déploiement mobile au service d'un impact social concret.
+                        </p>
                         <div class="tech">
                             <p>...</p>
                         </div>
