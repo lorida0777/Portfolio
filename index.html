@@ -494,14 +494,35 @@
                     </div>
                     <div class="portfolio-detail">
                         <p class="numb">06</p>
-                        <h3>...</h3>
-                        <p></p>
+                        <h3>Gender Classification — CNN Benchmarking & Transfer Learning</h3>
+                        <p>
+                            Ce projet implémente et compare six architectures de réseaux de neurones convolutifs 
+                            (CNN) pour la classification binaire du genre (Homme / Femme) à partir d'images 
+                            faciales issues du dataset CelebA (1 813 images, 128×128). L'objectif principal est 
+                            d'évaluer les différences de performance entre des CNN entraînés from scratch et des 
+                            modèles pré-entraînés via Transfer Learning, sur un dataset de taille limitée.
+                            <br><br>
+                            Deux CNN from scratch (Baseline CNN et Deep CNN avec Batch Normalization) ont été 
+                            comparés à quatre architectures pré-entraînées : VGG16, ResNet50, MobileNetV2 et 
+                            EfficientNetB0, toutes fine-tunées pour la classification binaire. Le pipeline 
+                            d'entraînement inclut augmentation de données (rotation, zoom, flips), optimiseur 
+                            Adam, EarlyStopping et ReduceLROnPlateau. Les résultats confirment que le Transfer 
+                            Learning surpasse significativement les CNN from scratch en termes de convergence, 
+                            de généralisation et de stabilité.
+                            <br><br>
+                            Les architectures légères MobileNetV2 et EfficientNetB0 offrent le meilleur compromis 
+                            précision / coût computationnel, tandis que les CNN from scratch nécessitent une 
+                            régularisation soignée pour éviter le surapprentissage. Ce projet illustre une 
+                            méthodologie d'expérimentation rigoureuse et reproductible, démontrant mes compétences 
+                            en Computer Vision, benchmarking de modèles Deep Learning et fine-tuning de 
+                            backbones CNN pré-entraînés.
+                        </p>
                         <div class="tech">
-                            <p>...</p>
+                            <p>Python, TensorFlow, Keras, VGG16, ResNet50, MobileNetV2, EfficientNetB0, Transfer Learning, Google Colab, Matplotlib</p>
                         </div>
                         <div class="live-github">
                             <a href="#"><i class="bx bx-arrow-back"></i><span>Live project</span></a>
-                            <a href="#"><i class="bx bxl-github"></i><span>GitHub Repository</span></a>
+                            <a href="https://github.com/lorida0777/Classification_genre/tree/main"><i class="bx bxl-github"></i><span>GitHub Repository</span></a>
                         </div>
                     </div>
                 </div>
