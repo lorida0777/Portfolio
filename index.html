@@ -437,6 +437,18 @@
                             chaîne de supermarchés française. Il repose sur un schéma en étoile (Star Schema) avec 
                             une table de faits centrale (50 000 transactions) reliée à 4 dimensions : Temps, Produit, 
                             Client et Magasin.
+                            <br><br>
+                            Le pipeline couvre les trois phases ETL : l'Extraction des données (générées de façon 
+                            réaliste via Faker et NumPy), la Transformation incluant le nettoyage, la validation, 
+                            l'enrichissement (tranches d'âge, remises fidélité de 0 à 15%, surrogate keys), et enfin 
+                            le Chargement ordonné dans PostgreSQL avec indexation pour des performances optimisées 
+                            (gain de 10x à 100x sur les requêtes).
+                            <br><br>
+                            Des analyses OLAP multidimensionnelles ont été réalisées via des requêtes SQL complexes : 
+                            Top 10 produits par chiffre d'affaires, évolution mensuelle du CA, analyse de la saisonnalité 
+                            et segmentation client (Bronze, Silver, Gold, Platinum). Les résultats sont restitués sous 
+                            forme de tableaux de bord interactifs avec Matplotlib et Seaborn, démontrant des compétences 
+                            complètes en ingénierie de données, modélisation dimensionnelle et analyse décisionnelle.
                         </p>
                         <div class="tech">
                             <p>...</p>
