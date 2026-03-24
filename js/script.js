@@ -76,10 +76,10 @@ resumeBtns.forEach((btn, idx) => {
 });
 
 const arrowRight = document.querySelector(
-  ".portfolio-box .navagation .arrow-right"
+  ".portfolio-box .navagation .arrow-right",
 );
 const arrowLeft = document.querySelector(
-  ".portfolio-box .navagation .arrow-left"
+  ".portfolio-box .navagation .arrow-left",
 );
 
 let index = 0;
@@ -100,11 +100,11 @@ const activePortfolio = () => {
 };
 
 arrowRight.addEventListener("click", () => {
-  if (index < 4) {
+  if (index < 5) {
     index++;
     arrowLeft.classList.remove("disabled");
   } else {
-    index = 5;
+    index = 6;
     arrowRight.classList.add("disabled");
   }
 
